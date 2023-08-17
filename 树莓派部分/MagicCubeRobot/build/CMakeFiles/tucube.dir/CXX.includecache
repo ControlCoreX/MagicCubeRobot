@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../colorful.h
+
+../log.h
+cstdio
+-
+
+../tucomm/tucomm.h
+
+/home/pi/developer/MagicCubeRobot/tucube/debug.cpp
+debug.h
+/home/pi/developer/MagicCubeRobot/tucube/debug.h
+log.h
+/home/pi/developer/MagicCubeRobot/tucube/log.h
+colorful.h
+/home/pi/developer/MagicCubeRobot/tucube/colorful.h
+tucube.h
+/home/pi/developer/MagicCubeRobot/tucube/tucube.h
+opencv2/opencv.hpp
+-
+iostream
+-
+tucomm.h
+/home/pi/developer/MagicCubeRobot/tucube/tucomm.h
+unistd.h
+/home/pi/developer/MagicCubeRobot/tucube/unistd.h
+
+/home/pi/developer/MagicCubeRobot/tucube/debug.h
+
+/home/pi/developer/MagicCubeRobot/tucube/tucube.h
+opencv2/opencv.hpp
+/home/pi/developer/MagicCubeRobot/tucube/opencv2/opencv.hpp
+

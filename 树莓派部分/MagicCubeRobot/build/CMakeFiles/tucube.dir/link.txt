@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/tucube.dir/main.cpp.o CMakeFiles/tucube.dir/tucube/tucube.cpp.o CMakeFiles/tucube.dir/tucube/debug.cpp.o CMakeFiles/tucube.dir/tucomm/tucomm.c.o  -o tucube   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lwiringPi -lpthread -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video 

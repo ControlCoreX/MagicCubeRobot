@@ -1,0 +1,3 @@
+/home/pi/developer/MagicCubeRobot/build/CMakeFiles/rebuild_cache.dir
+/home/pi/developer/MagicCubeRobot/build/CMakeFiles/tucube.dir
+/home/pi/developer/MagicCubeRobot/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/libraries/CMSIS/inc",
+                "${workspaceFolder}/libraries/Device/inc",
+                "${workspaceFolder}/libraries/STM32F4xx_StdPeriph_Driver/inc",
+                "${workspaceFolder}/FreeRTOS/inc",
+                "${workspaceFolder}/FreeRTOS/port/GCC/ARM_CM4F",
+                "${workspaceFolder}/FreeRTOS",
+                "${workspaceFolder}/software",
+                "${workspaceFolder}/software/tucomm",
+                "${workspaceFolder}/hardware/status_led",
+                "${workspaceFolder}/hardware/step_motor",
+                "${workspaceFolder}/hardware/servo",
+                "${workspaceFolder}/hardware/limit",
+                "${workspaceFolder}/system",
+                "${workspaceFolder}/system/delay",
+                "${workspaceFolder}/system/usart1",
+                "${workspaceFolder}/user",
+                "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\include",
+                "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\include\\c++\\10.3.1",
+                "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\include\\c++\\10.3.1\\arm-none-eabi\\thumb\\v7-m",
+                "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\include\\c++\\10.3.1\\backward",
+                "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\include\\sys",
+                "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\lib\\gcc\\arm-none-eabi\\10.3.1\\include",
+                "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\lib\\gcc\\arm-none-eabi\\10.3.1\\include-fixed"
+
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F40_41xxx"
+            ],
+            "compilerPath": "D:\\mingw-w64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
